@@ -14,7 +14,7 @@ include to the 'jQuery.responsiveBreakpointJQ.js' file or the minimised version.
 
 	<script src="../jQuery.responsiveBreakpointJQ.js"></script>
 	
-	Update your image elements with the data attribute for the breakpoints
+Update your image elements with the data attribute for the breakpoints
 
 	<img src="small.jpg" data-480="medium.jpg" data-960="large.jpg" alt="Image Alt text" />
 
