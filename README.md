@@ -31,3 +31,4 @@ The breakpoint are specified using the 'data-480' with the number being the pixe
 For retina images the plugin simply doubles the screen width and tests against that to get the double with images if they are specified. e.g. data-960 will be the retina image for a device of 480 width.
 
 
+
