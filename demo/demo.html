@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Demo</title>
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="../jQuery.responsiveBreakpointJQ.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('body img').replaceResponsiveImages(); //replaces the src of images
+	});
+	</script>
+</head>
+<body>
+<h1>Demo of responsive jQuery image breakpoints</h1>
+<p>Depending on your device width the image below is changed to get the best one that is available</p>
+
+	<img src="small.jpg" data-480="medium.jpg" data-960="large.jpg" alt="Image Alt text" />	
+</body>
+</html>
