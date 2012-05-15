@@ -12,7 +12,7 @@ include jQuery - currently only tested with 1.7.2
 
 include to the 'jQuery.responsiveBreakpointJQ.js' file or the minimised version.
 
-	script src="../jQuery.responsiveBreakpointJQ.js"></script>
+	<script src="../jQuery.responsiveBreakpointJQ.js"></script>
 	
 	Update your image elements with the data attribute for the breakpoints
 
