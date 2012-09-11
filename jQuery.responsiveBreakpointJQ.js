@@ -1,5 +1,6 @@
 (function( $ ){
   $.fn.replaceResponsiveImages = function() {
+  	
   	function sortNumbers(one,two){
   		return(one-two);
   	}
@@ -25,7 +26,8 @@
      		var highestBreakPoint = "" + keyArray.slice(-1)[0];//take the last value of the list (biggest num)
      		$(this).attr('src', $(this).data(highestBreakPoint));//set the src to the highest breakpoint that matched
      	}
-     } 
+     }
+     
     });
   };
 })( jQuery );
